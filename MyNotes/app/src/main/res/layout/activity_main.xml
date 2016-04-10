@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f06292"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="notesapp.rahulkushwaha.com.mynotes.MainActivity">
+
+    <TextView
+        android:id="@+id/pagetitle"
+        android:text="My Notes"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/title"
+        android:hint="Enter Title"
+        android:background="#ffffff"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pagetitle"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/notes"
+        android:layout_marginTop="23dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/title"
+        android:gravity="start"
+        android:layout_centerHorizontal="true"
+        android:hint="Start typing your notes here.."
+        android:layout_width="260dp"
+        android:layout_height="180dp" />
+
+    <Button
+        android:text="Submit"
+        android:id="@+id/saveButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/notes"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<Button
+    android:id="@+id/allNotesButton"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/saveButton"
+    android:text="ALL Notes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</RelativeLayout>
