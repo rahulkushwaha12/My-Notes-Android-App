@@ -1,0 +1,1 @@
+My Notes is basically a note taking app in which you can make notes about important things which strike in your mind for short duration so that you can recall them afterwards.  This app gives you features to save your note with date, edit and delete them and also share your note.
